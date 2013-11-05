@@ -5,7 +5,7 @@ Shell script and Python code to use bruteforce attack on aquired hash.
 <br>
 <ul>
 <li> I wrote seperate shellscpits to generate hashes for 4 digit numbers and 5 character words, stored them in a file seperately and grep the hash</li>
-<li></ul>
+</ul>
 
 For numbers:(testfornum.sh)
 ========================
@@ -13,7 +13,7 @@ For numbers:(testfornum.sh)
 <li>Run the following commands in terminal<br>
 ./testfornum.sh > hashednum.txt</li>
 
-<li>
+<li>Then run <br>
 grep -n " <The hash value goes here inside the inverted commas>" hashednum.txt | cut -c1-4 </li></ul>
 
 <br>
@@ -26,7 +26,8 @@ For Characters(testforchar.sh)
 <ul><li>Run the following commands in terminal<br>
 ./testforchar.sh > hashedwords.txt</li>
 
-<li>grep -n " <The hash value goes here inside the inverted commas>" hashedwords.txt | cut -c1-5</li>
+<li>Then run <br>
+grep -n " <The hash value goes here inside the inverted commas>" hashedwords.txt | cut -c1-5</li>
 
 <br>
 <b>Note:</b> The above command fetches the 1st 5 characters from the hashedwords.txt file as I have saved the word along with its hash in the file as per my shell script.
