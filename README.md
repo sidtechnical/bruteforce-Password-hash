@@ -29,6 +29,6 @@ For Characters(testforchar.sh)
 <li>grep -n " <The hash value goes here inside the inverted commas>" hashedwords.txt | cut -c1-5</li>
 
 <br>
-<b>Note:</br> The above command fetches the 1st 5 characters from the hashedwords.txt file as I have saved the word along with its hash in the file as per my shell script.
+<b>Note:</b> The above command fetches the 1st 5 characters from the hashedwords.txt file as I have saved the word along with its hash in the file as per my shell script.
 <li> It can be modified to use for more characters as well, but takes a lot of time. </li>
 
